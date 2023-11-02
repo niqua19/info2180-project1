@@ -67,19 +67,63 @@ section.learn-about div.container h2{
 div.cards{
     display: grid;
     grid-template-columns: auto auto auto;
-
 }
 
 div.card{
-    width: 200px;
+    width: 250px; 
+    border: 2px solid; 
+    border-color: #E2E8F0;
+    border-radius: 5px;
+    box-shadow: 1px 3px #E2E8F0;
+    text-align: center;
     
+}
+div.card div.card-body{
+    text-align: left;
+}
+
+div.card div.card-body h3{
+    color: #48BB78 ;
+    font-size: 21px;
 }
 
 img{
     object-fit: cover;
     height: 200px;
-    width: 200px;
+    width: 200px;  
 }
+
+section.testing{
+    background-color: #4A5568;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+section.testing div.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    height: 200px
+
+}
+
+section.testing div.container div.cta{
+    width: 15%;
+    height: 15%;
+    text-align: center;    
+    justify-content: center;
+    background-color: #48BB78;
+    border-radius: 5px;
+
+}
+
+
+
+
+
+
 
 
 
