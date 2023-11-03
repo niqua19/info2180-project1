@@ -66,7 +66,11 @@ section.learn-about div.container h2{
 
 div.cards{
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-columns: auto auto auto; */
+     grid-gap: 1px; 
+     
+    
 }
 
 div.card{
@@ -106,7 +110,7 @@ section.testing div.container{
     align-items: center;
     color: white;
     height: 200px
-
+    
 }
 
 section.testing div.container div.cta{
@@ -117,6 +121,36 @@ section.testing div.container div.cta{
     background-color: #48BB78;
     border-radius: 5px;
 
+}
+section.testing div.container div.cta a{
+    background-color: #48BB78;
+    border-radius: 5px;
+}
+
+section.stories div.container h2{
+    color: #5A67D8;    
+}
+
+section.stories a{
+    color: #5A67D8;
+   
+}
+
+section.stories h3{
+    font-size: 18px;
+}
+
+section.stories img{
+    border-radius: 50%;
+    float: left;
+    width: 250px;
+    height: 150px;
+    padding-right: 20px;
+
+}
+
+section.newsletter{
+    background-color: #48BB78;
 }
 
 
